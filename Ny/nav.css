@@ -1,0 +1,25 @@
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    padding: 10px 16px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100%;
+}
+
+.nav a{
+    text-decoration: none;
+}
+    
+.nav a:hover {
+    color: #96d4f7;
+}
+
+img{
+    float: right;
+    top: 90px;
+    
+}

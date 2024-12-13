@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <script src="Grupparbete.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformulär</title>
+    <link rel="stylesheet" href="Grupparbete.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="Home.html">Hem</a>
+        <a href="Omoss.html">Om oss</a>
+        <a href="Kontaktaoss.html">Kontakta oss</a>
+    </div>
+    
+    <h1 id="contact-us">Kontakta oss!</h1>
+    <form onsubmit="return validateForm()" method="post" action="Grupparbete.html">
+    <label for="name">Namn: </label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-postadress: </label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Meddelande: </label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <input type="submit" value="Skicka" style="background-color: rgb(137, 219, 112);">
+    <p id="error-message" style="color: red;">
+    </p>
+</form>
+</body>
+</html>

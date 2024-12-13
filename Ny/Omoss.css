@@ -1,0 +1,14 @@
+.Bildplacering {
+    float: left;
+    margin: 20px 10px 20px 10px;
+    width: 250px;
+    height: auto;
+    max-height: 330px;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: rgb(189, 189, 210);
+    margin: 1px 0;
+}
